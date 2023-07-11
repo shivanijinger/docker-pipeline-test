@@ -1,6 +1,3 @@
-"""
-Main application file
-"""
 from flask import Flask
 import logging
 app = Flask(__name__)
