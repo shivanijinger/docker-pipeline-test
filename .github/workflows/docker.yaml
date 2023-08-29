@@ -23,7 +23,7 @@ jobs:
         id-token: write
         contents: read
 
-steps: 
+  steps: 
     - name: Check commit status
       id: commit-status
       run: |
