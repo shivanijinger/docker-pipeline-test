@@ -86,6 +86,7 @@ jobs:
           task-definition: task-definition.json
           container-name: ecs-devops-sandbox   
           image: ${{ steps.build-image-docker.outputs.image }}   
+
       
       - name: Deploy Amazon ECS task definition
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
