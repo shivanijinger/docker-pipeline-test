@@ -63,7 +63,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with: 
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKERHUB_REPOSITORY}}:latest 
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKERHUB_REPOSITORY}}
   
       - name: Build and push Docker image
         id: build-image-docker
