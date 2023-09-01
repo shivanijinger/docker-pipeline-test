@@ -6,7 +6,7 @@
     "containerDefinitions": [
         {
             "name": "ecs-devops-sandbox",
-            "image": "ecs-devops-sandbox-repository:00000",
+            "image": "docker.io/shivanijinger/test_new:latest",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
